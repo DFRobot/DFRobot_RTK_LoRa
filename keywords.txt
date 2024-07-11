@@ -1,0 +1,57 @@
+#######################################
+# Syntax Coloring DFRobot_RTK_LoRa
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+DFRobot_RTK_LoRa_I2C	KEYWORD1
+DFRobot_RTK_LoRa_UART	KEYWORD1
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+getUTC	KEYWORD2
+getDate	KEYWORD2
+getLat	KEYWORD2
+getLon	KEYWORD2
+getNumSatUsed	KEYWORD2
+getAlt	KEYWORD2
+getSep	KEYWORD2
+getHdop	KEYWORD2
+getQuality	KEYWORD2
+getSiteID	KEYWORD2
+getDifTime	KEYWORD2
+setModule	KEYWORD2
+getModule	KEYWORD2
+transmitAT	KEYWORD2
+getGnssMessage	KEYWORD2
+getAllGnss	KEYWORD2
+setModuleBaud	KEYWORD2
+set4gBaud	KEYWORD2
+setLoraBaud	KEYWORD2
+getModuleBaud	KEYWORD2
+getLoraBaud	KEYWORD2
+get4gBaud	KEYWORD2
+setUserName	KEYWORD2
+setUserPassword	KEYWORD2
+setServerAddr	KEYWORD2
+setMountPoint	KEYWORD2
+setPort	KEYWORD2
+connect	KEYWORD2
+getConnectState	KEYWORD2
+reConnect	KEYWORD2
+setCallback	KEYWORD2
+sTim_t	KEYWORD2
+sLonLat_t	KEYWORD2
+eGnssData_t	KEYWORD2
+eModuleMode_t	KEYWORD2
+eModuleBaud_t	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+DEVICE_ADDR	LITERAL1
