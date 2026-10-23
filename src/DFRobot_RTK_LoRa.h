@@ -383,7 +383,7 @@ private:
 
 class DFRobot_RTK_LoRa_I2C:public DFRobot_RTK_LoRa{
 public:
-  DFRobot_RTK_LoRa_I2C(TwoWire *pWire=&Wire, uint8_t addr = 0x75);
+  DFRobot_RTK_LoRa_I2C(TwoWire *pWire=&Wire, uint8_t addr = DEVICE_ADDR);
   bool begin(void);
 protected:
   virtual void writeReg(uint8_t reg, uint8_t *data, uint8_t len);
