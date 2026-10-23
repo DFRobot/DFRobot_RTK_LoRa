@@ -231,6 +231,7 @@ Micro:bit          |      √       | nonsupport uart |             |
 
 ## 历史
 - 2023/3/27 - V0.1.0 版本
+- 2026/10/23 - V1.0.1 版本，修正 DFRobot_RTK_LoRa_I2C 的默认 I2C 地址（0x75 -> DEVICE_ADDR 0x20）。
 
 ## 创作者
 

@@ -218,6 +218,7 @@ Micro:bit          |      √       | nonsupport uart |             |
 ## History
 
 - 2024/03/26 - Version V0.1.0 released.
+- 2026/10/23 - Version V1.0.1 released. Fixed the default I2C address of DFRobot_RTK_LoRa_I2C (0x75 -> DEVICE_ADDR 0x20).
 
 ## Credits
 
