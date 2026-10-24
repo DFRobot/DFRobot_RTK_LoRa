@@ -110,8 +110,14 @@ There are two methods for using this library:<br>
 
 /**
  * @fn getQuality
- * @brief message Quality
- * @return uint8_t 
+ * @brief Positioning quality (GGA fix quality)
+ * @return uint8_t
+ * @n 0 = invalid
+ * @n 1 = GPS SPS (single point), meter-level
+ * @n 2 = DGPS, sub-meter
+ * @n 3 = GPS PPS (usually authorized users)
+ * @n 4 = RTK Fixed, centimeter-level (highest)
+ * @n 5 = RTK Float, decimeter-level
  */
   uint8_t getQuality(void);
 
