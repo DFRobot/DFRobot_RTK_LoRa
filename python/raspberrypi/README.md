@@ -107,8 +107,14 @@ python3 get_gnss.py
 
   def get_quality(self):
     '''!
-      @brief get message Quality 
-      @return message Quality
+      @brief Positioning quality (GGA fix quality)
+      @return int
+      @n 0 = invalid
+      @n 1 = GPS SPS (single point), meter-level
+      @n 2 = DGPS, sub-meter
+      @n 3 = GPS PPS (usually authorized users)
+      @n 4 = RTK Fixed, centimeter-level (highest)
+      @n 5 = RTK Float, decimeter-level
     '''
     
   def get_site_id(self):
