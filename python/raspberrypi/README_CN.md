@@ -111,8 +111,14 @@ python3 get_gnss.py
 
   def get_quality(self):
     '''!
-      @brief 获取消息的质量
-      @return message Quality
+      @brief 获取定位质量（GGA 定位状态）
+      @return int
+      @n 0 = 无效
+      @n 1 = 普通 GPS 单点定位（SPS），米级
+      @n 2 = 差分 GPS（DGPS），亚米级
+      @n 3 = GPS PPS 精密定位（通常授权用户）
+      @n 4 = RTK 固定解（Fixed），厘米级，最高精度
+      @n 5 = RTK 浮动解（Float），分米级，精度低于固定解
     '''
 
   def get_site_id(self):
